@@ -18,7 +18,7 @@ public class DisplayMessageActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
-
+        // 如果你的minSdkVersion属性是11活更高, 应该这么用:
         //getActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Get the message from the intent
